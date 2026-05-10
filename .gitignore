@@ -1,0 +1,28 @@
+﻿# Virtual environment
+.venv/
+venv/
+
+# Data files — lưu trên Google Drive riêng
+data/raw/
+data/processed/
+data/results/
+
+# Reports output — chỉ giữ code, không giữ output
+reports/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Zip files
+*.zip
+
+# Model checkpoints
+*.pt
+*.pth
