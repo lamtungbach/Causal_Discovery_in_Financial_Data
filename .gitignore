@@ -35,6 +35,9 @@ journal_revision_workflow/
 docs/
 *.md
 !/README.md
+!paper/journal/journal_manuscript.md
+!paper/journal/extension_statement.md
+!paper/journal/result_traceability.md
 *.docx
 *.pdf
 
