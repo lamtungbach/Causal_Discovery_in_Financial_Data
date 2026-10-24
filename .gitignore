@@ -1,28 +1,51 @@
-﻿# Virtual environment
+﻿# Python environments
 .venv/
 venv/
+env/
 
-# Data files — lưu trên Google Drive riêng
-data/raw/
-data/processed/
-data/results/
-
-# Reports output — chỉ giữ code, không giữ output
-reports/
-
-# Python cache
+# Python cache and test cache
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# IDE
+# Editors
 .vscode/
 .idea/
 
-# Zip files
-*.zip
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
 
-# Model checkpoints
+# Downloaded and generated data
+data/
+
+# Generated results and outputs
+results/
+output/
+reports/
+tmp/
+
+# Internal journal workflow
+journal_revision_workflow/
+
+# Internal documents
+docs/
+*.md
+!/README.md
+!paper/journal/journal_manuscript.md
+!paper/journal/extension_statement.md
+!paper/journal/result_traceability.md
+*.docx
+*.pdf
+
+# Models and archives
 *.pt
 *.pth
+*.zip
+
+# Logs and temporary Office files
+*.log
+~$*.docx
