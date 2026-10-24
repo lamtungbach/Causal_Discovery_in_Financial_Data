@@ -1,0 +1,15 @@
+# Direct dependency versions used for the verified full camera-ready run.
+# A CUDA-enabled PyTorch wheel may require the platform-specific index from
+# https://pytorch.org/get-started/locally/ rather than the default PyPI index.
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+scipy==1.13.0
+statsmodels==0.14.6
+scikit-learn==1.3.2
+torch==2.5.1
+networkx==3.3
+PyWavelets==1.7.0
+streamlit==1.45.1
+tabulate==0.9.0
+pytest==8.3.5
